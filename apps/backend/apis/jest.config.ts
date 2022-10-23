@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
-  displayName: 'cheol-notion',
-  preset: '../../jest.preset.js',
+  displayName: 'backend-apis',
+  preset: '../../../jest.preset.js',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
@@ -12,5 +12,5 @@ export default {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/apps/cheol-notion',
+  coverageDirectory: '../../../coverage/apps/backend/apis',
 };
